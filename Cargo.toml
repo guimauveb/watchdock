@@ -1,0 +1,13 @@
+[package]
+name = "watchdock"
+version = "0.1.0"
+authors = [ "Guillaume Bournel <contact@guimauve.io>" ]
+description = "Signal docker container to restart after a period of inactivity"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.6", features = ["rt", "sync", "time"] }
+shiplift = "0.7"
+thiserror = { version = "1.0" }
+log = "0.4"
+
